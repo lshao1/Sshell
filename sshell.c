@@ -585,7 +585,7 @@ int main(void) {
                     firstLine = strtok(resultString, "\n");
                     secondLine = strtok(NULL, "\n");
 
-                    printf("%s\n", firstLine);
+                    fprintf(stdout, "%s\n", firstLine);
                     fprintf(stderr, "%s\n", secondLine);
                 }
         
