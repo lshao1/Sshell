@@ -70,7 +70,7 @@ int CheckAndPersand(char* input){
 
 void my_exit(char *command) {
     char complete_message[] = "Bye...\n";
-    printf("%s", complete_message);
+    fprintf(stderr, "%s", complete_message);
     fprintf(stderr, "+ completed '%s' [0]\n", command);
     exit(0);
 }
